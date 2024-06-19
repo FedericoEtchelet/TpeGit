@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
+
+
 /* HEADER */
 header{
     position: fixed;
@@ -40,6 +45,10 @@ header{
     padding-top: 4vh;
 }
 
+.nav-li{
+    overflow: hidden;
+}
+
 .nav-li-a{
     color: rgb(0, 0, 0);
     padding: 1em;
@@ -71,7 +80,7 @@ header{
 
 .homeIMG{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 
 /* HOME */
