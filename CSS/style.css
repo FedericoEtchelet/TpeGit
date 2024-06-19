@@ -3,44 +3,85 @@
     padding: 0;
 }
 
+/* HEADER */
 header{
+    position: fixed;
+    z-index: 1111;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 5vh;
-    margin-bottom: 50px;
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.34s;
+    background-image: url(../media/logoBlack.png);
+    background-position: 5vh 3vh;
+    background-repeat: no-repeat;
+    background-size: 15vh;
 }
+
+.header.opaco{
+    background-color: rgba(0, 0, 0, 0.815);
+    background-image: url(../media/logoWhite.png);
+    background-position: 3vh 0.5vh;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: 0.34s;
+}
+
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2vw;
+    padding-top: 4vh;
+}
+
+.nav-li-a{
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    transition: 0.34s;
+}
+
+.nav-li-a.opaco{
+    color: white;
+    padding: 1em;
+    transition: 0.34s;
+}
+
+
+.nav-li a:hover{
+    color: greenyellow;
+    padding: 1em;
+    text-decoration: none;
+    text-shadow: 0px 0px 25px white;
+    transition: 0.34s;
+}
+
+.logoHeader{
+    width: 12vw;
+    margin-bottom: 1em;
+}
+/* HEADER */
+
+/* HOME */
+
+.homeIMG{
+    width: 100vw;
+    height: 80vh;
+}
+
+/* HOME */
 
 h2{
     color:greenyellow;
 }
+
 p{
     color: white;
-}
-header a{
-    text-decoration: none;
-    color: black;
-    margin-top: 5px;
-    font-size: 25px;
-    margin-right: 50px;   
-}
-header a:hover{
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-header nav{
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-.logo{
-    background-color: black;
-}
-
-.logoHeader{
-    width: 10em;
-    display: flex;
-    justify-content: left;
 }
 
 .containerH1{
@@ -81,24 +122,47 @@ header nav{
     margin-bottom: 100px;
 }
 
+.card-group-product {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img-top-product{
+    width: 50%;
+    height: 60%;
+    transition: 0.34s;
+}
+
+.card-img-top-product:hover{
+    position: relative;
+    z-index: 1110;
+    width: 60%;
+    height: 70%;
+    transition: 0.34s;
+}
+
+.card-product{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .card{
     margin: 30px;
-    padding: 30px;
     color:white;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    transition: 0.34s;
 }
 
 .card:hover{
     box-shadow: 0px 0px 15px greenyellow;
+    transition: 0.34s;
 }
 
 .card h5{
     color: greenyellow;
-}
-
-.card-img-top{
-    width: 100%;
-    height: 300px;
 }
 
 .footer{

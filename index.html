@@ -17,94 +17,60 @@
     />
   </head>
   <body class="bg-dark">
-    <header>
+    <header class="header" id="header">
       <nav class="navbar">
-        <img class="logoHeader" src="media/logoHeader.png" alt="NVIDIA LOGO" />
-        <a href="#productos">Productos</a>
-        <a href="#IA">Inteligencia Artificial</a>
-        <a href="#diseño">Diseño Y Simulacion</a>
-        <a href="#HPC">Computacion De Alto Rendimiento</a>
+        <br>
+        <ul class="nav-ul">
+          <li class="nav-li" id="nav-li"><a class="nav-li-a" href="#productos">Productos</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#IA">Inteligencia Artificial</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#diseño">Diseño Y Simulacion</a></li>
+          <li class="nav-li"><a class="nav-li-a" href="#HPC">Computacion De Alto Rendimiento</a></li>
+      </ul>
       </nav>
     </header>
+
+    <section class="homeWelcome">
+      <img class="homeIMG" src="/media/homeWhite.jpg" alt="">
+    </section>
 
     <!-- SECCION PRODUCTOS -->
     <section class="sectionProductos" id="productos">
       <h2 >Productos</h2>
       <!--GROUP CARD 1-->
-      <div class="card-group">
-        <div class="card card bg-dark">
+      <div class="card-group-product">
+        <div class="card-product bg-dark">
           <img
-            src="./media/gtx3090.png"
-            class="card-img-top"
-            alt="./media/gtx3070.jpg"
+            src="./media/RTX3060.png"
+            class="card-img-top-product"
+            alt="RTX3060"
           />
           <div class="card-body">
-            <h5 class="card-title">GTX 3090</h5>
+            <h5 class="card-title">RTX 3060Ti</h5>
             <p class="card-text">$850000</p>
             <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
           </div>
         </div>
-        <div class="card bg-dark">
+        <div class="card-product bg-dark">
           <img
-            src="media/gtx3080.jfif"
-            class="card-img-top"
-            alt="media/gtx3070.jpg"
+            src="media/RTX3070.png"
+            class="card-img-top-product"
+            alt="RTX3070"
           />
           <div class="card-body">
-            <h5 class="card-title">GTX 3080</h5>
+            <h5 class="card-title">RTX 3070Ti</h5>
             <p class="card-text">$600000</p>
             <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
           </div>
         </div>
-        <div class="card bg-dark">
+        <div class="card-product bg-dark">
           <img
-            src="./media/gtx3070.jpg"
-            class="card-img-top"
-            alt="./media/gtx3070.jpg"
+            src="./media/RTX3080.png"
+            class="card-img-top-product"
+            alt="RTX3080"
           />
           <div class="card-body">
-            <h5 class="card-title">GTX 3070</h5>
+            <h5 class="card-title">RTX 3080tI</h5>
             <p class="card-text">$540000</p>
-            <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
-          </div>
-        </div>
-      </div>
-
-      <!--GROUP CARD 2-->
-      <div class="card-group">
-        <div class="card bg-dark" >
-          <img
-            src="./media/gtx3070.jpg"
-            class="card-img-top"
-            alt="./media/gtx3070.jpg"
-          />
-          <div class="card-body">
-            <h5 class="card-title">RTX 4090</h5>
-            <p class="card-text">$950000</p>
-            <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
-          </div>
-        </div>
-        <div class="card bg-dark">
-          <img
-            src="./media/rtx4080.jpg"
-            class="card-img-top"
-            alt="./media/gtx3070.jpg"
-          />
-          <div class="card-body">
-            <h5 class="card-title">RTX 4080</h5>
-            <p class="card-text">$855000</p>
-            <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
-          </div>
-        </div>
-        <div class="card bg-dark">
-          <img
-            src="./media/rtx4070.jpg"
-            class="card-img-top"
-            alt="./media/gtx3070.jpg"
-          />
-          <div class="card-body">
-            <h5 class="card-title">RTX 4070</h5>
-            <p class="card-text">$752000</p>
             <a href="#" class="btn btn-primary">Agregar Al Carrito</a>
           </div>
         </div>
@@ -158,7 +124,7 @@
     </section>
 
     <!-- SECCION DISEÑO -->
-    <section class="sectionCards" id="computación">
+    <section class="sectionCards" id="HPC">
       <div class="descripcion">
         <h2>Computación de alto rendimiento</h2>
         <p>La computación de alto rendimiento (HPC) es la capacidad de procesar datos y realizar cálculos complejos a altas velocidades. HPC es una de las herramientas más esenciales que impulsa el avance de la ciencia computacional.</p>
