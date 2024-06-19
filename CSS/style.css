@@ -128,7 +128,12 @@ p{
 
 .card-group {
     width: 100%;
+    height: 550px;
     margin-bottom: 100px;
+}
+
+.card-img-top {
+    height: 250px;
 }
 
 .card-group-product {
@@ -172,8 +177,15 @@ p{
 
 .card h5{
     color: greenyellow;
+    margin-bottom: 30px;
 }
 
+.card p{
+    font-size: medium;
+}
+
+
+/* FOOTER */
 .footer{
     display: flex;
     flex-direction: row;
