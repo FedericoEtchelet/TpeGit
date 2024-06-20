@@ -9,7 +9,6 @@
     display: none;
 }
 
-
 /* HEADER */
 header{
     position: fixed;
@@ -62,7 +61,6 @@ header{
     padding: 1em;
     transition: 0.34s;
 }
-
 
 .nav-li a:hover{
     color: greenyellow;
@@ -186,7 +184,6 @@ p{
     font-size: medium;
 }
 
-
 /* FOOTER */
 .footer{
     display: flex;
@@ -197,15 +194,18 @@ p{
     background-color: black;
    
 }
+
 .footer p{
     color:greenyellow;
 }
+
 .footer a{
     font-size: x-large;
     text-decoration: none;
     color: white;
     margin-left: 10px;
 }
+
 .footer a:hover{
     color: greenyellow;
     text-decoration: none;
