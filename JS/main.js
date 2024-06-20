@@ -1,5 +1,5 @@
 "use strict";
-
+//funcionalidad para el header opaco
 document.addEventListener("DOMContentLoaded", scrollHeader);
 function scrollHeader() {
     window.addEventListener('scroll', function () {
